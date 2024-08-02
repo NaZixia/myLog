@@ -5,13 +5,13 @@
 https://github.com/chenshuo/muduo
 
 
-**编译**
+## 编译
     make -j8
     
-**运行自带测试**
+## 运行自带测试
     ./myLog
 
-**使用**
+## 使用
     1.包含头"Logging.h"
 
     2.使用函数初始化
@@ -23,7 +23,7 @@ https://github.com/chenshuo/muduo
 
 
 
-**类说明**
+## 类说明
 与Log相关的类包括FileUtil、LogFile、AsyncLogging、LogStream、Logging。
 其中前4个类每一个类都含有一个append函数，Log的设计也是主要围绕这个append函数展开的。
 
